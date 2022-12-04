@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="text-red-500">Welcome to our CuriosityXploring website</h1>
-      <p className="p-5">This is the newsest update</p>
+      <p className="">This is the newsest update</p>
     </div>
   );
 }
