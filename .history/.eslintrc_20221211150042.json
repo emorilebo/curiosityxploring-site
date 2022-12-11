@@ -1,0 +1,3 @@
+{
+  "extends": ["eslin","next/core-web-vitals"]
+}

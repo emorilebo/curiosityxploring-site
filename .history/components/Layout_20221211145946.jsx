@@ -1,0 +1,26 @@
+import Head from "next/head";
+import React from "react";
+
+export default function Layout({ children, title }) {
+  return (
+    <>
+    <Head>
+        <title>
+          {title ? title: "Curiosityxploring - Amazing global community of worldbest developer"}
+        </title>
+        <meta name="description" content="" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div>
+        <header>
+          <h1 className="text-red-500 font-bold text-2xl">
+            Welcome to our CuriosityXploring website
+          </h1>
+        </header>
+        <main>{children}</main>
+
+        <footer>smile @ curiosityxploring 2022</footer>
+      </div>
+    </>
+  );
+}
